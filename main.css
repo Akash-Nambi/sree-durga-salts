@@ -1,0 +1,226 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1B6CA8;
+}
+
+.top1{
+    height: 20vh;
+    background-color: #002056;
+}
+
+
+.navbar
+{
+    background-color: white;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+    position: relative;
+    top: calc(20vh - 56px); 
+    z-index: 1;
+    
+}
+
+.main-box{
+    
+    background-color: #A9DFFF;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    padding-bottom: 20px;
+    
+}
+
+.brands
+{
+    background-color: rgb(0,32,86,0.5);
+    padding: 20px;
+}
+
+span > img
+{
+    height: 24px;
+    position: relative;
+    top: -2px;
+    margin-right: 3px;
+}
+
+.slidercontainer,.detailscontainer
+{
+    padding:20px ;
+    
+}
+
+.slidertab
+{
+    position: relative;
+    top: 10px;
+    background-color: #fff9d6;
+    border-radius: 30px;
+    height: 300px;
+}
+
+
+.carousel-item > img, .carousel-item
+{
+    border-radius: 30px;
+    height: 300px;
+}
+
+.carousel-control-prev
+{
+    margin-right: 5px;
+}
+
+.bar
+{
+    width: 330px;
+    height: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.card-horizontal
+{
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.img-square-wrapper > img
+{
+    width: 150px;
+    min-height: 100%;
+    border-bottom-left-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
+}
+
+.card
+{
+    border: none;   
+}
+
+.brands > h1
+{
+    color: white;
+    margin-bottom: 0;
+   
+}
+
+.brandsbar
+{
+    width: 160px;
+    height: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+footer > div
+{
+    background-color: #A9DFFF;
+    padding: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.nav-item
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.slidertab
+{
+    position: relative;
+    top: 10px;
+    background-color: #fff9d6;
+    border-radius: 30px;
+    height: 300px;
+}
+.detailstab
+{
+    position: relative;
+    top: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px;
+
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+.nav-item
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.detailstab
+{
+    position: relative;
+    top: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px;
+
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+.nav-item
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.slidercontainer,.detailscontainer
+{
+    padding:20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.detailstab
+{
+    position: relative;
+    top: 10px;
+    background-color: #ffffff;
+    height: 300px;
+    border-radius: 10px;
+    padding: 25px;
+
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .nav-link
+{
+    background-color: #0C4C87;
+    border-radius: 7px;
+    color: white!important;
+    padding: 5px;
+}
+
+.detailstab > p
+{
+    margin-top: 25px;
+    padding: 2px;
+    padding-right: 0;
+}
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
