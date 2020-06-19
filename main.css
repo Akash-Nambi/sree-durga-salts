@@ -154,6 +154,15 @@ footer > div
     padding: 25px;
 
 }
+.img-square-wrapper > img
+{
+    width: 150px;
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom-left-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
+}
 
 }
 
@@ -219,6 +228,17 @@ footer > div
     padding-right: 0;
 }
 
+
+.navbar
+{
+    background-color: white;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+    position: relative;
+    top: calc(20vh - 55.75px); 
+    z-index: 1;
+    
+}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
